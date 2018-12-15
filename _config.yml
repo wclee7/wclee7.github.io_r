@@ -293,3 +293,12 @@ defaults:
       comments: # true
       share: true
       related: true
+
+excerpt: "Header Img added by wclee"
+header:
+  overlay_image: /assets/images/header-image-1.jpg
+  overlay_filter: rgba(255, 0, 0, 0.5)
+  caption: "my photo header 1"
+  actions:
+    - label: "my Blog in daum"
+      url: "https://blog.daum.net/urlover"

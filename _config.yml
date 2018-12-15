@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "KR" # "en-US"
-title                    : "wclee's dev stroy!"
+title                    : "wclee's scribble!"
 title_separator          : "-"
 name                     : "wclee"
-description              : "wclee's java developer in enliple AI"
+description              : "java developer in enliple AI"
 url                      : "https://wclee7.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -291,11 +291,3 @@ defaults:
       share: true
       related: true
 
-excerpt: "Header Img added by wclee"
-header:
-  overlay_image: "/assets/images/header-image-1.jpg"
-  overlay_filter: rgba(255, 0, 0, 0.5)
-  caption: "my photo header 1"
-  actions:
-    - label: "my Blog in daum"
-      url: "https://blog.daum.net/urlover"

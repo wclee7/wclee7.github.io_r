@@ -23,7 +23,7 @@ description              : "java developer in enliple AI"
 url                      : "https://wclee7.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wclee7/wclee7.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/logo.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/header-image-1.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -105,7 +105,7 @@ analytics:
 author:
   name             : "wclee"
   avatar           : "/assets/images/myPhoto.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "dev in enliple"
+  bio              : "java dev in enliple AI"
   location         : "enliple (in hansin IT Tower (guro))"
   email            :
   links:
@@ -132,7 +132,7 @@ author:
 header:
   teaser: "/assets/images/header-image-1.jpg"
   overlay_image: "/assets/images/header-image-1.jpg"
-  overlay_filter: rgba(255, 0, 0, 0.5)
+#   overlay_filter: rgba(255, 0, 0, 0.5)
   caption: "my photo header~!"
   actions:
     - label: "myBlog"
@@ -290,20 +290,9 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-#   - scope:
-#       path: ""
-#       type: posts
-#     values:
-#       layout: single
-#       author_profile: true
-#       read_time: true
-#       comments: # true
-#       share: true
-#       related: true
-  # _pages
   - scope:
       path: ""
-      type: pages
+      type: posts
     values:
       layout: single
       author_profile: true
@@ -311,3 +300,14 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+#   - scope:
+#       path: ""
+#       type: pages
+#     values:
+#       layout: single
+#       author_profile: true
+#       read_time: true
+#       comments: # true
+#       share: true
+#       related: true

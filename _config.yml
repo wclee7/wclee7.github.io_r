@@ -130,7 +130,13 @@ author:
 
 # Site header
 header:
- teaser: /assets/images/header-image-1.jpg
+  teaser: "/assets/images/header-image-1.jpg"
+  overlay_image: "/assets/images/header-image-1.jpg"
+  overlay_filter: rgba(255, 0, 0, 0.5)
+  caption: "my photo header~!"
+  actions:
+    - label: "myBlog"
+      url: "https://blog.daum.net/urlover"
 
 # Site Footer
 footer:

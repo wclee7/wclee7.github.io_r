@@ -1,8 +1,14 @@
 ---
 layout : post
 title: "wclee blog reStart"
-date: 2018-12-15 09:40:00 +0900
-categories: spring
+description: "first test"
+modified: 2018-12-15
+category: articles
+tags: [sample post]
+imagefeature: cover1.jpg
+comments: true
+share: true
 ---
+
 
 HI~!
